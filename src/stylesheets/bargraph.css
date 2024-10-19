@@ -1,0 +1,8 @@
+.bar-container>*{
+    background-color:transparent !important;
+}
+.bar-container{
+    background-color:transparent !important;
+    border:1px solid #d1e8e2;
+    border-radius:6px;
+}

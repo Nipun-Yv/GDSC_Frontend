@@ -1,0 +1,32 @@
+.nexus-secret{
+    background:none;
+    border:1px solid #d1e8e2;
+    text-align:center;
+    color:#116466;
+    font-weight:900;
+    height:10vh;
+    background-image:url("https://img.freepik.com/free-vector/paper-style-white-monochrome-background_23-2149023490.jpg")
+}
+.secret-desc{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:black;
+    height:70vh;
+    width:74%;
+    margin-left:10%;
+    margin-top:3vh;
+    border:1px solid #d1e8e2;
+    color:rgb(5, 189, 171);
+    padding:3%;
+    overflow-y: scroll;
+    background-image:url("https://images.scalebranding.com/modern-unique-x-logo-473c5bce-31b2-452a-86c1-d1bab9cc3aa9.jpg");
+    background-size:cover;
+}
+.secret-desc img{
+    width:35%;
+    height:40vh;
+    display: inline-block; /* Makes the image inline */
+    margin: 0 auto; /* Centers the image */
+    margin-bottom: 15px; /* Space below the image */
+}

@@ -1,0 +1,115 @@
+.entry-main{
+    background-image:url("https://img.freepik.com/free-photo/3d-abstract-flowing-particle-background_1048-11869.jpg");
+    width:100%;
+    height:100%;
+    background-size:cover;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    gap:-10%;
+}
+/* .intro{
+    text-align:center;
+    color:#d1e8e2;
+    font-size:2rem;
+} */
+.web-name{
+    margin-top:0;
+    text-align:center;
+    font-size:7rem;
+    color:#d1e8e2;
+}
+
+.typewriter{
+    color: #1fabad;
+    overflow: hidden; 
+    border-right: .15em solid #1da3aa; 
+    white-space: nowrap; 
+    margin: 0 auto; 
+    letter-spacing: 0em; 
+    animation: 
+      typing 1.5s steps(15, end) 0.5s forwards,
+      blink-caret 0.8s step-end infinite;
+    text-align:center;
+    opacity:0;
+  }
+  
+  
+  @keyframes typing {
+    from { width: 0;opacity:1}
+    to { width: 13%;opacity:1}
+  }
+  
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #1c9ba2 }
+  }
+
+.glow {
+    color: #fff;
+    animation: glow 1.5s ease-in-out infinite 0s alternate;
+}
+  
+  @keyframes glow {
+    0% {
+      text-shadow: 0 0 10px #174646, 0 0 20px #177b7c, 0 0 30px #115d5e, 0 0 40px #116466, 0 0 50px #0b4142, 0 0 60px #062425, 0 0 70px black;
+    }
+    100% {
+      text-shadow: 0 0 20px #d1e8e2, 0 0 30px #d1e8e2, 0 0 40px #27d8db, 0 0 50px #1fabad, 0 0 60px #178788, 0 0 70px #116466, 0 0 80px #116466;
+    }
+  }
+
+.made-by{
+    position:fixed;
+    top:90vh;
+    animation:reveal 3s 3s forwards;
+    color:#d1e8e2;
+    opacity:0;
+    border-top:1px solid #d1e8e2;
+    width:50%;
+    text-align:center;
+    text-shadow:0.5px 0.5px 1px white;
+}
+@keyframes reveal{
+    from{
+        opacity:0;
+    }
+    to{
+        opacity:1;
+    }
+}
+.rel-small{
+    font-size:1rem;
+    color:#178788;
+}
+.entry-button{
+    height:5vh;
+    width:20%;
+    background:none;
+    border:1px solid #23b2b5;
+    border-radius:3px;
+    color:white;
+    font-weight:600;
+    font-size:1rem;
+    text-shadow: 1px 1px 1px #FFCB9A;
+    animation:reveal 1s 1.8s forwards, glowbox 1.5s 2.8s forwards;
+    opacity:0;
+}
+.entry-button:hover{
+    background-color:#d1e8e2;
+    color:#116466;
+    border:none;
+
+}
+
+
+@keyframes glowbox{
+    0%{
+        box-shadow:none;
+    }
+    100%{
+        box-shadow:0px 0px 20px white;
+    }
+}

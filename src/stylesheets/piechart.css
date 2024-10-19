@@ -1,0 +1,10 @@
+.pie-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:transparent !important;
+    border-bottom:2px solid rgb(155, 219, 213);
+    border-right:2px solid rgb(155, 219, 213);
+    border-left:none;
+    border-radius:24px;
+}

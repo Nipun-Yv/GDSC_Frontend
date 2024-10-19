@@ -1,0 +1,17 @@
+/* #root > div > div > div:nth-child(3) > div > canvas{
+    background-color: black;
+    width:25vw !important;
+} */
+.radar-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:24px;
+}
+.radar-container>div{
+    width: 95%;
+    height:95%;
+    background-color:#d1e8e2!important;
+    border:3px solid gold;
+    border-radius:24px;
+}
